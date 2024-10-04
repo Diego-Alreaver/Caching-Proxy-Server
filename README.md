@@ -18,5 +18,5 @@ The Caching Proxy Server is a lightweight command-line interface (CLI) tool desi
 1. **Start the Server**:
    ```bash
    python app.py --port <number> --origin <url>
-   for example:
+   #for example:
    python app.py --port 3000 --origin http://dummyjson.com
