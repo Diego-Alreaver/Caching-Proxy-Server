@@ -14,13 +14,6 @@ This is a lightweight command-line interface (CLI) tool designed to cache respon
 - **Flask**: A lightweight web framework to handle HTTP requests and responses.
 - **pipenv**: A dependency manager for Python that creates a virtual environment for the project.
 
-## How to Use
-1. **Start the Server**:
-   ```bash
-   python app.py --port <number> --origin <url>
-   #for example:
-   python app.py --port 3000 --origin http://dummyjson.com
-
 ## Caching Mechanism
 
 The caching mechanism is designed to optimize the response times for repeated requests. It utilizes two key concepts:
@@ -48,6 +41,13 @@ The caching mechanism is designed to optimize the response times for repeated re
   Content-Length: 44275
   X-Cache: HIT
   Connection: close
+
+## How to Use
+1. **Start the Server**:
+   ```bash
+   python app.py --port <number> --origin <url>
+   #for example:
+   python app.py --port 3000 --origin http://dummyjson.com
 
 ## Idea from: 
 https://roadmap.sh/projects/caching-server
